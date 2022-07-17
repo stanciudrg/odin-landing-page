@@ -11,3 +11,30 @@ body {
     font-size: 16px;
     line-height: 1.5;
 }
+
+header {
+    background-color: #1F2937;
+}
+
+.navbar-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1100px;
+    margin: auto;
+    padding: 16px 20px;
+}
+
+.navbar-logo {
+    font-size: 24px;
+    font-weight: bold;
+    color: #F9FAF8;
+}
+
+.navbar-list {
+    display: flex;
+    gap: 20px;
+    font-size: 18px;
+    color: #E5E7EB;
+    list-style-type: none;
+}
