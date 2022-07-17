@@ -94,3 +94,45 @@ header {
     height: 100%;
     border-radius: 8px;
 }
+
+#section-one .container {
+    max-width: 1100px;
+    margin: auto;
+    padding: 0 20px;
+}
+
+h2 {
+    text-align: center;
+    margin: 35px auto;
+    font-size: 36px;
+    font-weight: bold;
+    color: #1F2937;
+}
+
+.boxes-container {
+    gap: 50px;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.box {
+    display: flex;
+    flex-flow: column;
+    gap: 10px;
+}
+
+.box-image {
+    flex: 1;
+}
+
+.box-image img {
+    border: 5px solid rgba(56, 130, 246, 1);
+    border-radius: 8px;
+    width: 100%;
+    height: 100%;
+}
+
+.box-subtext {
+    color: #1F2937;
+    text-align: center;
+}
