@@ -208,3 +208,11 @@ cite {
 .signup-button:hover {
     cursor: pointer;
 }
+
+footer {
+    padding: 40px 0;
+    font-size: 18px;
+    text-align: center;
+    color: #E5E7EB;
+    background: #1F2937;
+}
